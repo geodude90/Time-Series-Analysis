@@ -1,1 +1,2 @@
 # Time-Series-Analysis
+Project to predict bike usage in Austin Texas for public bike system. Utilized Dickey Fuller Test to test for stationarity, removed trend and seasonality from data. Trained using an ARIMA model on train set and tested on test set. Test set was looped over, with one test data point added and error metrics assessed in order to approximate model deployment. Model with lowest error metrics was selected and a forecast out of sample was made.
